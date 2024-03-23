@@ -204,8 +204,6 @@ body{
 }
 .content-footer{
     height: calc(100% - 2vw);
-    border: 1px solid yellow;
-    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
