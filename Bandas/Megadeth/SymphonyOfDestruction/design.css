@@ -15,7 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     
-    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp68701.jpg&f=1&nofb=1&ipt=9ecf85b1c25582c45c6170235d0b5bc1e88510ca3e6cb16ecbee1cdb3bc022da&ipo=images);
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperset.com%2Fw%2Ffull%2Ff%2Fd%2F8%2F31415.jpg&f=1&nofb=1&ipt=335ad59455ed8af823a8aac377abcdbfecb00294133ed7cd0fa8157df2ec07b0&ipo=images);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -245,6 +245,122 @@ body{
     font-size: 1vw;
     color: #dcdcdc;
 
+}
+
+@media (max-width: 720px) {
+    .header{
+        height: 100vw;
+        background-size: cover;
+        background-position: center;
+    }
+    .presentation-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-presentation{
+        height: 75%;
+        width: 90%;
+    }
+    .card{
+        height: 75%;
+        width: 100%;
+    }
+    .content-card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-card{
+        font-size: 4.5vw;
+    }
+    .presentation-text{
+        font-size: 3.5vw;
+    }
+    .buttons-page{
+        height: 10vw;
+    }
+    .main-title{
+        font-size: 4.5vw;
+    }
+    .link-buttons{
+        font-size: 2vw;
+    }
+    .song-title{
+        font-size: 6vw;
+    }
+    .lyrics{
+        font-size: 3vw;
+    }
+    .footer{
+        height: 20vw;
+    }
+    .social-network{
+        font-size: 3vw;
+    }
+    .copyright-text{
+        font-size: 2vw;
+        margin-bottom: 3vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .header{
+        height: 150vw;
+    }
+    .presentation-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-presentation{
+        height: 90%;
+        width: 160%;
+    }
+    .card{
+        height: 75%;
+        width: 100%;
+        
+    }
+    .content-card{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-card{
+        font-size: 7vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .presentation-text{
+        font-size: 5vw;
+    }
+    .buttons-page{
+        height: 12vw;
+    }
+    .main-title{
+        font-size: 5vw;
+    }
+    .link-buttons{
+        font-size: 3vw;
+        padding: 5px;
+        margin: 2px;
+    }
+    .lyrics{
+        font-size: 4vw;
+    }
+    .footer{
+        height: 20vw;
+    }
+    .social-network{
+        font-size: 4vw;
+    }
+    .copyright-text{
+        font-size: 3vw;
+        margin-bottom: 4vw;
+    }
 }
 
 

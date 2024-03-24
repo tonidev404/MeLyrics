@@ -242,6 +242,7 @@ body{
     height: 2vw;
     width: 100%;
     user-select: none;
+    margin-bottom: 20px;
 }
 .fa-regular{
     margin-right: 5px;
@@ -254,6 +255,108 @@ body{
 }
 
 
+@media (max-width: 720px) {
+    .header{
+        height: 100vw;
+    }
+    .presentation-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-presentation{
+        height: 75%;
+        width: 90%;
+    }
+    .card{
+        height: 75%;
+        width: 100%;
+    }
+    .title-card{
+        font-size: 4vw;
+    }
+    .presentation-text{
+        font-size: 2vw;
+    }
+    .buttons-page{
+        height: 10vw;
+    }
+    .main-title{
+        font-size: 4.5vw;
+    }
+    .link-buttons{
+        font-size: 2vw;
+    }
+    .album{
+        height: 20vw;
+    }
+    .titleAlbum{
+        font-size: 3.5vw;
+    }
+    .footer{
+        height: 20vw;
+    }
+    .social-network{
+        font-size: 3vw;
+    }
+    .copyright-text{
+        font-size: 2vw;
+        margin-bottom: 3vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .header{
+        height: 150vw;
+        
+    }
+    .presentation-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-presentation{
+        height: 90%;
+        width: 160%;
+    }
+    .card{
+        height: 75%;
+        width: 100%;
+        
+    }
+    .title-card{
+        font-size: 6vw;
+    }
+    .presentation-text{
+        font-size: 3vw;
+    }
+    .buttons-page{
+        height: 12vw;
+    }
+    .main-title{
+        font-size: 5vw;
+    }
+    .link-buttons{
+        font-size: 3vw;
+        padding: 5px;
+        margin: 2px;
+    }
+    .album{
+        height: 30vw;
+        width: 80%;
+    }
+    .titleAlbum{
+        font-size: 4vw;
+    }
+    .footer{
+        height: 20vw;
+    }
+    .social-network{
+        font-size: 4vw;
+    }
+    .copyright-text{
+        font-size: 3vw;
+        margin-bottom: 4vw;
+    }
+}
 
 @keyframes cambiarColor {
     0%{
@@ -279,3 +382,4 @@ body{
     }
     
 }
+
